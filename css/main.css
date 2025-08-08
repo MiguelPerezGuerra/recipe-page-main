@@ -1,0 +1,7 @@
+@import url("./base.css");
+
+/*--Mobile First--*/
+body{
+    font-size: var(--font-size-parrafo);
+    font-family: var(--font-family-primaria);
+}
