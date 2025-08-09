@@ -2,6 +2,97 @@
 
 /*--Mobile First--*/
 body{
+    width: 100%;
+    height: auto;
+    background-color: var(--color-White);
     font-size: var(--font-size-parrafo);
     font-family: var(--font-family-primaria);
+}
+.banner{
+    width: 100%;
+}
+.banner__img{
+    width: 100%;
+    object-fit: contain;
+}
+.receta{
+    width: 100%;
+    padding: 3.2rem;
+    color: var(--color-Stone-600);
+}
+.receta__titulo{
+    font-family: var(--font-family-secundaria);
+    font-size: var(--font-size-titulo);
+    font-weight: var(--font-weight-400);
+    color: var(--color-Stone-900);
+    line-height: 1;
+}
+.receta__descripcion{
+    margin: 2.5rem 0; 
+    line-height: 1.5;
+}
+.receta__card{
+    width: 100%;
+    background-color: var(--color-Rose-50);
+    padding: 2rem 2.5rem;
+    border-radius: 1rem;
+}
+.receta__card-titulo{
+    margin-bottom: 1rem;
+    color: var(--color-Rose-800);
+    font-size: var(--font-size-subtitulo);
+    font-weight: var(--font-weight-600);
+}
+.receta__card-list{
+    width: 100%;
+    list-style: none;
+}
+.card__list-item {
+    padding: .5rem;
+    position: relative;
+}
+.card__list-item .item-bold{
+    font-weight: var(--font-weight-700);
+    padding-left: 2.6rem;
+}
+.card__list-item .item-bold::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 45%;
+    width: .5rem;
+    height: .5rem;
+    background-color: var(--color-Rose-800);
+    border-radius: 50%;
+    margin-left: .6rem;
+}
+.receta__ingredientes{
+    list-style-position: inside;
+    margin: 3rem 0;
+    border-bottom: 1px solid var(--color-Stone-150);
+}
+.ingredientes__titulo{
+    font-family: var(--font-family-secundaria);
+    font-size: var(--font-size-subtitulo);
+    font-weight: var(--font-weight-400);
+    color: var(--color-Brown-800);
+}
+.ingredientes__list{
+    margin: 1.5rem 0 3rem 0;
+    list-style: none;
+    position: relative;
+}
+.ingredientes__list-item{
+    padding: .5rem  4rem;
+}
+.ingredientes__list-item::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: .5rem;
+    height: .5rem;
+    background-color: var(--color-Brown-800);
+    border-radius: 50%;
+    margin-left: .7rem;
+    margin-top: 3%;
 }

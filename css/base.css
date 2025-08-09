@@ -15,12 +15,12 @@
     --color-Stone-600: hsl(30, 10%, 34%);
     --color-Stone-900: hsl(24, 5%, 18%);
     --color-Brown-800: hsl(14, 45%, 36%);
-    --colot-Rose-800: hsl(332, 51%, 32%);
-    --colot-Rose-50: hsl(330, 100%, 98%);
+    --color-Rose-800: hsl(332, 51%, 32%);
+    --color-Rose-50: hsl(330, 100%, 98%);
     --font-family-primaria: "OutFit";
     --font-family-secundaria: "YoungSerif";
-    --font-size-titulo: 2.4rem;
-    --font-size-subtitulo: 2rem;
+    --font-size-titulo: 3.6rem;
+    --font-size-subtitulo: 2.8rem;
     --font-size-parrafo: 1.6rem;
     --font-size-subparrafo: 1.2rem;
     --font-weight-400: 400;
@@ -32,6 +32,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    line-height: 1.4;
 }
 html{
     font-size: 62.5%;
